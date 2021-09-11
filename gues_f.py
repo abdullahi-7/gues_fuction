@@ -6,3 +6,9 @@ def gues():
     var = random.randint(1,4) 
     if v != var:
         print("wrong")
+    elif v > var:
+        print("your number is bigger", var)
+    else:
+        print("your number is small", var )
+
+gues()
