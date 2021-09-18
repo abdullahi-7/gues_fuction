@@ -49,3 +49,4 @@ def gues():
     else:
         print("your number is small", var )
 
+gues()
